@@ -12,15 +12,7 @@ android {
         versionName "0.0.2"
     }
 
-    signingConfigs {
-        release {
-            storeFile file(MATERIAL_KEYSTORE_FILE)
-            storePassword MATERIAL_KEYSTORE_PASSWORD
-            keyAlias MATERIAL_KEYSTORE_ALIAS
-            keyPassword MATERIAL_KEYSTORE_PASSWORD
-        }
-    }
-
+   
     buildTypes {
         release {
             minifyEnabled false
